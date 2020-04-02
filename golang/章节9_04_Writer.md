@@ -20,3 +20,33 @@ type Writer interface {
 模式： 用户-组-其他
 ```
 
+* 往文件写
+
+```go
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main() {
+	fp := "/Users/xiehz/go/test"
+	f, err := os.OpenFile(fp, os.O_APPEND, 0644)
+	defer f.Close()
+	if err != nil {
+		fmt.Println("file does't exist,create a new file")
+		f, _ = os.Create(fp)
+	}
+
+	//使用文件对象重写的writer接口，参数是[]byte
+	f.Write([]byte("使用writer接口写数据\r\n"))
+
+	//使用stringWriter接口的方法，参数是字符串，使用更方便
+	f.WriteString("写了\t一段\r\n内容123")
+	fmt.Println("程序执行结束")
+}
+```
+
+
+

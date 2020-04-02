@@ -295,3 +295,7 @@ $ git stash
 $ git stash pop
 ```
 
+### 三、git自动提交
+
+***
+
