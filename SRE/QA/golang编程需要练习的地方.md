@@ -92,5 +92,13 @@ func DoTask() func(name string, hours int) {  //构造带参数的闭包
 }
 ```
 
+***
+
+* 常用的封装
+
+```
+
+```
+
 
 

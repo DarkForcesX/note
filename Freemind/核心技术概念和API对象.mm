@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#bfbfbf" CREATED="1587272127939" ID="ID_1967205163" MODIFIED="1587393668099" STYLE="bubble" TEXT="K8S">
+<node COLOR="#bfbfbf" CREATED="1587272127939" ID="ID_1967205163" MODIFIED="1587442129770" STYLE="bubble" TEXT="K8S">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -408,8 +408,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587276858829" HGAP="171" ID="ID_1161155986" MODIFIED="1587300274990" TEXT="federation" VSHIFT="-4">
 <richcontent TYPE="NOTE"><html>
@@ -594,8 +593,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587272807566" HGAP="138" ID="ID_1867746038" MODIFIED="1587385819325" TEXT="Node" VSHIFT="-2">
 <richcontent TYPE="NOTE"><html>
@@ -631,8 +629,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587272812944" HGAP="125" ID="ID_1742443351" MODIFIED="1587300441024" TEXT="Secret" VSHIFT="-2">
 <richcontent TYPE="NOTE"><html>
