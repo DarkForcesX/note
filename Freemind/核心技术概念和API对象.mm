@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#bfbfbf" CREATED="1587272127939" ID="ID_1967205163" MODIFIED="1587442129770" STYLE="bubble" TEXT="K8S">
+<node COLOR="#bfbfbf" CREATED="1587272127939" ID="ID_1967205163" MODIFIED="1587612298897" STYLE="bubble" TEXT="K8S">
 <richcontent TYPE="NOTE"><html>
   <head>
     
