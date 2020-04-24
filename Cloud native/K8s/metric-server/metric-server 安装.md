@@ -16,7 +16,6 @@ docker tag registry.cn-hangzhou.aliyuncs.com/google_containers/metrics-server-am
 
 ```shell
 # kube-api添加聚合层配置
-
   - --requestheader-client-ca-file=/etc/kubernetes/ssl/ca.pem 
   - --requestheader-allowed-names=aggregator 
   - --requestheader-extra-headers-prefix=X-Remote-Extra- 
