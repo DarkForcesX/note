@@ -17,3 +17,40 @@ $  cat daemon.json
 }
 ```
 
+### 二、docker安装
+
+***
+
+* 设置仓库
+
+```shell
+sudo yum install -y yum-utils \
+  device-mapper-persistent-data \
+  lvm2
+```
+
+```shell
+sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+```
+
+* 安装docker
+
+```shell
+sudo yum install docker-ce
+```
+
+* 启动docker
+
+```shell
+sudo systemctl start docker
+```
+
+* 卸载
+
+```shell
+$ sudo yum remove docker-ce 
+$ sudo rm -rf /var/lib/docker
+```
+
