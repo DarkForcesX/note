@@ -2,6 +2,8 @@
 
 ***
 
+* ServerRunOptions
+
 ```go
 // ServerRunOptions runs a kubernetes api server.
 type ServerRunOptions struct {
