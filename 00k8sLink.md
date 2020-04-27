@@ -4,13 +4,15 @@
 
 * 官方
 
-  * [k8s官方文档](https://kubernetes.io/zh/docs/reference/)
-  * [oc官网](https://www.openshift.com/blog/tag/kubernetes/page/7)
+  * [k8s官方文档](https://kubernetes.io/zh/docs/reference/)[✨✨✨✨✨]
+  * [oc官网](https://www.openshift.com/blog/tag/kubernetes/page/7)[✨✨✨✨✨]
 
 * 博客
 
-   * [阳明的博客01](https://www.qikqiak.com/)
-* [宋大佬的博客](https://jimmysong.io/kubernetes-handbook/guide/using-etcdctl-to-access-kubernetes-data.html)
+   * [阳明的博客01](https://www.qikqiak.com/) [✨✨✨]
+* [宋大佬的博客](https://jimmysong.io/kubernetes-handbook/guide/using-etcdctl-to-access-kubernetes-data.html) [✨✨✨]
+   * [csdn专栏01](https://blog.csdn.net/bbwangj/category_7918969.html)    [✨✨✨]
+   * [yp的github](https://github.com/yangpeng14/DevOps/blob/master/README.md) [✨✨✨]
    
    
 
@@ -38,3 +40,25 @@
   * 往aws发服务的，没什么用
   
   
+
+### 三、组件
+
+***
+
+* [prometheus](https://github.com/yunlzheng/prometheus-book)
+* 超文本传输协议 [HTTP1.1](https://tools.ietf.org/html/rfc7230#section-5.4)
+  * 消息语法和路由
+
+* 概念：
+  * [<font size=3>Kubernetes 之APIServer组件简介</font>](https://blog.csdn.net/bbwangj/article/details/81904421)
+
+* deep dive 
+  * 
+
+### 四、troubleshooting
+
+***
+
+* [etcd](https://mp.weixin.qq.com/s/qittYHY2GUwhFtvsRDaIAQ)
+
+* [nginx ingress controller](https://kubernetes.github.io/ingress-nginx/troubleshooting/)
