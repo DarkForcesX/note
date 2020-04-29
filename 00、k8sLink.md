@@ -6,13 +6,16 @@
 
   * [k8s官方文档](https://kubernetes.io/zh/docs/reference/)[✨✨✨✨✨]
   * [oc官网](https://www.openshift.com/blog/tag/kubernetes/page/7)[✨✨✨✨✨]
+  * [servicemesher](https://www.servicemesher.com/)[✨✨✨✨✨]
 
 * 博客
 
    * [阳明的博客01](https://www.qikqiak.com/) [✨✨✨]
 * [宋大佬的博客](https://jimmysong.io/kubernetes-handbook/guide/using-etcdctl-to-access-kubernetes-data.html) [✨✨✨]
    * [csdn专栏01](https://blog.csdn.net/bbwangj/category_7918969.html)    [✨✨✨]
-   * [yp的github](https://github.com/yangpeng14/DevOps/blob/master/README.md) [✨✨✨]
+   * [yp的github](https://github.com/yangpeng14/DevOps/blob/master/README.md)     [✨✨✨]
+   * [domgoer](https://blog.domgoer.io/)        [✨✨✨]
+   * [倪鹏飞的博客](https://github.com/feiskyer/kubernetes-handbook)  [✨✨✨]
    
    
 

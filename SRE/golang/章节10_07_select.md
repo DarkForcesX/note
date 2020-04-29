@@ -77,3 +77,6 @@ func main() {
 }
 ```
 
+---
+
+* [Select 的用法](https://lessisbetter.site/2019/01/20/golang-channel-all-usage/)
