@@ -7,17 +7,18 @@
   * [k8s官方文档](https://kubernetes.io/zh/docs/reference/)       [✨✨✨✨✨]
   * [oc官网](https://www.openshift.com/blog/tag/kubernetes/page/7)                [✨✨✨✨✨]
   * [servicemesher](https://www.servicemesher.com/)    [✨✨✨✨✨]
+  * [k8s中文官方](https://www.kubernetes.org.cn)        [✨✨✨✨✨]
 
 * 博客
 
    * [阳明的博客01](https://www.qikqiak.com/)   [✨✨✨]
-* [宋大佬的博客](https://jimmysong.io/kubernetes-handbook/guide/using-etcdctl-to-access-kubernetes-data.html)   [✨✨✨]
+   *  [宋大佬的博客](https://jimmysong.io/kubernetes-handbook/guide/using-etcdctl-to-access-kubernetes-data.html)   [✨✨✨]
    * [csdn专栏01](https://blog.csdn.net/bbwangj/category_7918969.html)      [✨✨✨]
    * [yp的github](https://github.com/yangpeng14/DevOps/blob/master/README.md)        [✨✨✨]
    * [domgoer](https://blog.domgoer.io/)           [✨✨✨]
-   * [倪鹏飞的博客](https://github.com/feiskyer/kubernetes-handbook)   [✨✨✨✨✨]
-   * [Draven](https://draveness.me)             [✨✨✨✨✨]
-   * [胡伟煌](https://www.huweihuang.com/tags/)              [✨✨✨✨✨]
+   * [倪鹏飞的博客](https://github.com/feiskyer/kubernetes-handbook)    [✨✨✨✨✨]
+   * [Draven](https://draveness.me)               [✨✨✨✨✨]
+   * [胡伟煌](https://www.huweihuang.com/tags/)               [✨✨✨✨✨]
    
    
 
@@ -82,12 +83,12 @@
   * [调度实践与原理](http://dockone.io/article/2885)
   * [设计精要](https://draveness.me/system-design-scheduler/)
 * ControllerManager
+* kube-proxy
+  * [怎么使用iptables](http://www.dbsnake.net/how-kubernetes-use-iptables.html)
 * kube-apiserver
   * [核心原理](https://blog.csdn.net/huwh_/article/details/75675706)
   * [List-watch](https://www.kubernetes.org.cn/174.html)
-  * [<font size=3>Kubernetes 之APIServer组件简介</font>](https://blog.csdn.net/bbwangj/article/details/81904421)
-
-
+  * [list-watch设计精髓](http://wsfdl.com/kubernetes/2019/01/10/list_watch_in_k8s.html)
 
 ### 六、对象
 
@@ -113,5 +114,23 @@
 
 * [调度实践与原理](http://dockone.io/article/2885)
 
-  
+### 七、考试
 
+***
+
+* [CKAD](https://www.cnblogs.com/redmoon/p/12050311.html)
+* [刷题](https://my.oschina.net/liabio)
+
+### 八、经典流程
+
+***
+
+* [pod创建流程](http://likakuli.com/post/2019/08/05/pod_create/)
+* [pod生命周期](https://fuckcloudnative.io/posts/pods-life/)
+  * 生成新的-删除旧的
+
+### 九、源码阅读
+
+***
+
+* [kubelet-arch](http://ljchen.net/2018/10/28/kubelet%E6%BA%90%E7%A0%81%E6%9E%B6%E6%9E%84%E7%AE%80%E4%BB%8B/)
