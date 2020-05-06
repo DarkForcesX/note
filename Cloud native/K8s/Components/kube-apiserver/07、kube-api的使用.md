@@ -8,7 +8,7 @@
 
 ***
 
-* 查看pod v1 core
+* 查看pod v1 core（查看官方文档）
 
 ```
 Pod v1 core
@@ -29,7 +29,6 @@ Pod v1 core
 
 ```shell
 curl 127.0.0.1:8001/api/v1/watch/pods?watch=yes |jq
-
 ```
 
 

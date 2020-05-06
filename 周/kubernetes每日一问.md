@@ -44,11 +44,14 @@
 ```
 kubecrl port-forward 怎么选端口暴露
 kubectp proxy  这个和上面的什么区别
+kubectl expose rc webapp
 ```
 
 
 
 
 
+0.3 50% ==8
 
+0.5 70%==8
 
