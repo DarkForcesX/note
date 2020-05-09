@@ -43,15 +43,25 @@
 
 ```
 kubecrl port-forward 怎么选端口暴露
-kubectp proxy  这个和上面的什么区别
+kubectl proxy  这个和上面的什么区别
 kubectl expose rc webapp
 ```
 
 
 
+* 两个版本的
+
+参考：
+
+​	https://juejin.im/post/5d8c99745188257f512fb340
+
+​	https://blog.fleeto.us/post/kubernetes-deployments-the-ultimate-guide/ 
+
+​	https://www.cnblogs.com/tylerzhou/p/10995776.html
+
+[·book](https://books.google.com.sg/books?id=BRlKDwAAQBAJ&pg=PA91&lpg=PA91&dq=matchExpressions+key:version+operator:In+values&source=bl&ots=BRYDhHquWL&sig=ACfU3U20AwFzf-JM2zMkWK90aMw4XVrQOA&hl=zh-CN&sa=X&ved=2ahUKEwja1OXikqfpAhXI7XMBHVs6A_wQ6AEwD3oECAgQAQ#v=onepage&q=matchExpressions%20key%3Aversion%20operator%3AIn%20values&f=false)
+
+![image-20200510001132465](/Users/xiehz/Library/Application Support/typora-user-images/image-20200510001132465.png)
 
 
-0.3 50% ==8
-
-0.5 70%==8
 
