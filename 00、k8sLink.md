@@ -76,6 +76,7 @@
   * [kubelet启动](http://blog.xbblfz.site/2018/10/12/Kubelet%E5%90%AF%E5%8A%A8%E5%8F%8A%E5%AF%B9Docker%E5%AE%B9%E5%99%A8%E7%AE%A1%E7%90%86%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/)
   * [这是一张经典的图](https://www.kubernetes.org.cn/3625.html?spm=a2c4e.10696291.0.0.6d5519a4sZNk6s)
   * [Runtime](http://ljchen.net/2018/11/11/kubelet运行时介绍/) 
+  * [CNI/CRI/CSI](https://www.do1618.com/archives/1621/kubelet-pod-创建之-cri-和-cni-源码剖析/)
 * schedule
   * [设计与实现](https://www.bilibili.com/video/BV1N7411w7M9?from=search&seid=793542453529148615)
   * [调度实践与原理](http://dockone.io/article/2885)
