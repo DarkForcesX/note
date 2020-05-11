@@ -49,6 +49,20 @@
 
 ```
 1、CRI核心组件
+A：kubelet、CRI shim、container runtime
+```
+
+```
+2、preferredDuringSchedulingIgnoreDuringExecution是软亲和还是硬亲和。
+  A：是软亲和，尽量不调度的意思
+硬亲和和软亲和说明：（不管是node还是pod都可以用软亲和或者硬亲和）
+requiredDuringSchedulingIgnoredDuringExecution（硬亲和）：必须满足，如果不满足则不进行调度
+preferredDuringSchedulingIgnoredDuringExecution（软亲和）：倾向满足，不满足的情况下会调度的不符合条件的Node上。
+```
+
+```
+3、daemonset 副本数量跟 node 数量 什么关系呢？
+A：由于 daemonset 是在每个 node 上启动一个 pod，其不存在扩缩容操作，副本数量跟 node 数量 保持一致。所以，daemonset controller 会监听 daemonsets 、 controllerRevision （历史版本）、 pod 和 node 四种对象资 源的变动，
 ```
 
 * 0512
