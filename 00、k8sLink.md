@@ -82,6 +82,7 @@
   * [调度实践与原理](http://dockone.io/article/2885)
   * [设计精要](https://draveness.me/system-design-scheduler/)
 * ControllerManager
+  * [Informer](https://blog.tianfeiyu.com/2019/05/17/client-go_informer/ ) 
 * kube-proxy
   * [怎么使用iptables](http://www.dbsnake.net/how-kubernetes-use-iptables.html)
 * kube-apiserver
