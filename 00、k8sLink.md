@@ -90,32 +90,29 @@
   * [List-watch](https://www.kubernetes.org.cn/174.html)
   * [list-watch设计精髓](http://wsfdl.com/kubernetes/2019/01/10/list_watch_in_k8s.html)
   * [k8s API规范约束](http://blog.xbblfz.site/2018/10/11/K8S_API%E8%A7%84%E8%8C%83%E7%BA%A6%E6%9D%9F/)
+* CNI
+  * [calico](https://www.lijiaocn.com/%E9%A1%B9%E7%9B%AE/2017/04/11/calico-usage.html)
 
 ### 六、对象
 
 ***
 
 * [从对象谈起](https://draveness.me/kubernetes-object-intro/)
-
 * [pod的实现原理](https://draveness.me/kubernetes-pod/)
-
 * [service的实现原理](https://draveness.me/kubernetes-service/)
-
 * [volume的实现原理](https://draveness.me/kubernetes-volume/)
-
 * [replicaset的实现原理](https://draveness.me/kubernetes-replicaset/)
-
 * [垃圾收集器(GC)的实现原理](https://draveness.me/kubernetes-garbage-collector/)
-
 * [Deployment的实现原理](https://draveness.me/kubernetes-deployment/)
-
 * [StatefulSet的实现原理](https://draveness.me/kubernetes-statefulset/)
-
 * [Job/Cronjob的实现原理](https://draveness.me/kubernetes-job-cronjob/)
-
 * [调度实践与原理](http://dockone.io/article/2885)
+* [pod创建流程](http://likakuli.com/post/2019/08/05/pod_create/)
+* [pod生命周期](https://fuckcloudnative.io/posts/pods-life/)
+  * 生成新的-删除旧的
+  * [PLEG](https://www.lagou.com/lgeduarticle/98400.html)
 
-### 七、考试
+### 七、练习
 
 ***
 
@@ -126,16 +123,16 @@
 
 ***
 
-* [pod创建流程](http://likakuli.com/post/2019/08/05/pod_create/)
-* [pod生命周期](https://fuckcloudnative.io/posts/pods-life/)
-  * 生成新的-删除旧的
-  * [PLEG](https://www.lagou.com/lgeduarticle/98400.html)
 
-### 九、源码阅读
+
+
+
+### 九、golang
 
 ***
 
 * [kubelet-arch](http://ljchen.net/2018/10/28/kubelet%E6%BA%90%E7%A0%81%E6%9E%B6%E6%9E%84%E7%AE%80%E4%BB%8B/)
+* [golang说明](https://www.lijiaocn.com/go-detail/)
 
 
 
@@ -145,3 +142,10 @@
 
 * [leetcode](http://blog.xbblfz.site/2018/05/14/LeetCode%E5%88%B7%E9%A2%98%E6%80%9D%E8%B7%AF/#leetcode189)
 
+
+
+## Linux
+
+***
+
+[故障定位](http://arthurchiao.art/index.html)
