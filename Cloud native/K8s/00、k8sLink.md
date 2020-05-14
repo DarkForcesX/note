@@ -18,11 +18,12 @@
    * [domgoer](https://blog.domgoer.io/)           [✨✨✨]
    * [倪鹏飞的博客](https://github.com/feiskyer/kubernetes-handbook)    [✨✨✨✨✨]
    * [Draven](https://draveness.me)               [✨✨✨✨✨✨✨✨✨✨]
-   * [胡伟煌](https://www.huweihuang.com/tags/)               [✨✨✨✨✨✨✨✨✨✨✨✨✨✨] --原理
+   * [胡伟煌](https://www.huweihuang.com/tags/)                [✨✨✨✨✨✨✨✨✨✨✨✨✨✨] --原理
    * [Lichen](http://ljchen.net)               [✨✨✨✨✨✨✨✨✨✨✨✨✨✨] --画图
    * [米开朗基扬](https://fuckcloudnative.io/tags/kubernetes/)        [✨✨✨✨✨✨✨✨✨✨✨✨✨]--全量
-   * [xubo的blog](http://blog.xbblfz.site/)       [✨✨✨✨✨✨] --源码
-   * [田飞雨](https://blog.tianfeiyu.com/archives/)               [✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨] --源码
+   * [xubo的blog](http://blog.xbblfz.site/)        [✨✨✨✨✨✨] --源码
+   * [田飞雨](https://blog.tianfeiyu.com/archives/)                [✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨] --源码
+   * [极地瑞雪博客](https://docs.lvrui.io)     [✨✨✨✨✨]
 
 ### 二、在线学习
 
@@ -92,6 +93,10 @@
   * [k8s API规范约束](http://blog.xbblfz.site/2018/10/11/K8S_API%E8%A7%84%E8%8C%83%E7%BA%A6%E6%9D%9F/)
 * CNI
   * [calico](https://www.lijiaocn.com/%E9%A1%B9%E7%9B%AE/2017/04/11/calico-usage.html)
+  * 
+* 安全
+  * [kubernetes security](https://kubernetes-security.info/)
+  * [证书](https://www.kubernetes.org.cn/2540.html)
 
 ### 六、对象
 
@@ -112,18 +117,17 @@
   * 生成新的-删除旧的
   * [PLEG](https://www.lagou.com/lgeduarticle/98400.html)
 
-### 七、练习
+### 七、QA
 
 ***
 
 * [CKAD](https://www.cnblogs.com/redmoon/p/12050311.html)
 * [刷题](https://my.oschina.net/liabio)
+* 
 
 ### 八、经典流程
 
 ***
-
-
 
 
 
@@ -133,6 +137,7 @@
 
 * [kubelet-arch](http://ljchen.net/2018/10/28/kubelet%E6%BA%90%E7%A0%81%E6%9E%B6%E6%9E%84%E7%AE%80%E4%BB%8B/)
 * [golang说明](https://www.lijiaocn.com/go-detail/)
+* [极地瑞雪博客](https://docs.lvrui.io/)
 
 
 

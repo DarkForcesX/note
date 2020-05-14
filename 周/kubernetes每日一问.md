@@ -1,5 +1,7 @@
 ### 一、基础问题
 
+***
+
 #### 01、kubernetes的核心组件
 
 #### 02、kubernetes的主要对象
@@ -10,28 +12,24 @@
 
 #### 05、CNI/CSI/CRI
 
-	* CRI的主要组件
-
-```
-	kubelet使用gRPC框架通过UNIX Socket与容器运行时（或CRI代 理）进行通信。在这个过程中kubelet是客户端，CRI代理（shim）是服务端.
-	Protocol Buffers API包含两个gRPC服务：ImageService和 RuntimeService。 
-	ImageService提供了从仓库拉取镜像、查看和移除镜像的功能。 
-	RuntimeService负责Pod和容器的生命周期管理，以及与容器的交互 （exec/attach/port-forward）。
-	rkt和Docker这样的容器运行时可以使用一 个Socket同时提供两个服务，在kubelet中可以用--container-runtime-endpoint和--image-service-endpoint参数设置这个Socket。
-```
-
 #### 06、深入了解pod
+
+
 
 ### 二、故障处理
 
-#### 01、故障排查流程
+***
 
-#### 02、状态切换
+#### 01、故障排查流程	
+
+#### 02、故障
+
+* [证书导致节点Notready](https://docs.lvrui.io/2018/12/11/%E8%AE%B0%E5%BD%95K8s-1-10-x-TLS-Bootstrap-Bug%E4%B8%80%E6%9E%9A/)
+
+#### 03、状态切换
 
    * node
-
    * pod
-
    * pv/pvc
 
 
@@ -67,8 +65,6 @@
 kubecrl port-forward 怎么选端口暴露
 kubectl proxy  这个和上面的什么区别
 kubectl expose rc webapp
-
-firewalld 原理, raw。mangle，nat ，fillter /input/out/pre.../post.../forwad
 ```
 
 
