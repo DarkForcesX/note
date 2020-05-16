@@ -123,7 +123,8 @@
 
 * [CKAD](https://www.cnblogs.com/redmoon/p/12050311.html)
 * [刷题](https://my.oschina.net/liabio)
-* 
+
+  
 
 ### 八、经典流程
 
@@ -138,8 +139,6 @@
 * [kubelet-arch](http://ljchen.net/2018/10/28/kubelet%E6%BA%90%E7%A0%81%E6%9E%B6%E6%9E%84%E7%AE%80%E4%BB%8B/)
 * [golang说明](https://www.lijiaocn.com/go-detail/)
 * [极地瑞雪博客](https://docs.lvrui.io/)
-
-
 
 ### 十、算法
 
