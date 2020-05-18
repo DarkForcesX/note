@@ -18,7 +18,7 @@
    * [domgoer](https://blog.domgoer.io/)           [✨✨✨]
    * [倪鹏飞的博客](https://github.com/feiskyer/kubernetes-handbook)    [✨✨✨✨✨]
    * [Draven](https://draveness.me)               [✨✨✨✨✨✨✨✨✨✨]
-   * [胡伟煌](https://www.huweihuang.com/tags/)                [✨✨✨✨✨✨✨✨✨✨✨✨✨✨] --原理
+   * [胡伟煌](https://www.huweihuang.com/tags/)  [blog](https://www.huweihuang.com/kubernetes-notes/)       [✨✨✨✨✨✨✨✨✨✨✨✨✨✨] --原理
    * [Lichen](http://ljchen.net)               [✨✨✨✨✨✨✨✨✨✨✨✨✨✨] --画图
    * [米开朗基扬](https://fuckcloudnative.io/tags/kubernetes/)        [✨✨✨✨✨✨✨✨✨✨✨✨✨]--全量
    * [xubo的blog](http://blog.xbblfz.site/)        [✨✨✨✨✨✨] --源码
@@ -97,6 +97,8 @@
 * 安全
   * [kubernetes security](https://kubernetes-security.info/)
   * [证书](https://www.kubernetes.org.cn/2540.html)
+* ETCD
+  * [etcd中k8s的数据](https://www.huweihuang.com/kubernetes-notes/etcd/k8s-etcd-data.html)
 
 ### 六、对象
 
@@ -146,10 +148,22 @@
 
 * [leetcode](http://blog.xbblfz.site/2018/05/14/LeetCode%E5%88%B7%E9%A2%98%E6%80%9D%E8%B7%AF/#leetcode189)
 
-
-
 ## Linux
 
 ***
 
 [故障定位](http://arthurchiao.art/index.html)
+
+
+
+***
+
+- ◎ [Kubernetes常见问题](https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/)
+- ◎ [Kubernetes应用相关问题](https://kubernetes.io/docs/tasks/debug-applicationcluster/debug-application/) 
+- ◎ [Kubernetes集群相关问题](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/)
+- ◎ [Kubernetes官方论坛](https://discuss.kubernetes.io/)
+- ◎ [Kubernetes GitHub库问题列表](https://github.com/kubernetes/kubernetes/issues)
+- ◎ [StackOverflow网站上关于Kubernetes的问题讨论](http://stackoverflow.com/questions/tagged/kubernetes ) 
+
+
+

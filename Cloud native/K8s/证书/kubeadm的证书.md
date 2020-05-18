@@ -189,3 +189,7 @@ etcd 集群根证书CA(etcd 所用到的所有证书的签发机构)
 - [kubelet删除Pod报device or resource busy](https://docs.lvrui.io/2018/10/11/Kubelet删除Pod报device-or-resource-busy/)
 - [Kubernetes入门简介](https://docs.lvrui.io/2016/05/31/Kubernetes入门简介/)
 - [systemd-journal: Suppressed N messages](https://docs.lvrui.io/2018/11/22/systemd-journal-Suppressed-N-messages/)
+
+***
+
+* [huweihuang](https://www.huweihuang.com/kubernetes-notes/setup/k8s-cert.html)

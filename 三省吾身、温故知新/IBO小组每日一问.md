@@ -114,11 +114,11 @@ step4:旧0新4，
 A：
 ```
 
-* 0516
+* 0518
 
 ***
 
 ```
-
+1、kubelet证书过期，导致kubelet crash，进而node 为not-ready. 这时这个node上的pod（以core-dns举例)，会进入污点探测，等会就符合条件了，这时是把这个pod直接从service摘掉么？不等待core-dns这个pod在其它node启动起来，再从service摘掉这个异常pod么？
 ```
 
