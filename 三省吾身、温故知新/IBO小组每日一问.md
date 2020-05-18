@@ -118,7 +118,30 @@ A：
 
 ***
 
-```
+```go
 1、kubelet证书过期，导致kubelet crash，进而node 为not-ready. 这时这个node上的pod（以core-dns举例)，会进入污点探测，等会就符合条件了，这时是把这个pod直接从service摘掉么？不等待core-dns这个pod在其它node启动起来，再从service摘掉这个异常pod么？
+
+A：service的作用 是定义服务的入口和负载均衡的，通过label selector来选择提供服务的pod（可能是servicecontroler 的周期有关）
+  ctx.InformerFactory.Core().V1().Services(),
+  ctx.InformerFactory.Core().V1().Nodes(),
+看startservicecontroller，会建立与services对象和nodes对象的通信，也就是说，如果，node掉了的话，那么，这个节点上的pod就选不到了，service的流量转发，可能就不会再到这个pod上。
+
+而coredns 的pod 这个是用deployment的方式部署，deployment 生成RS对象，也是通过label selector 来判断spec和status，这时候，deploymentcontroller 发现后，可能会根据副本数，重新建pod。
+
+发现endpointController会建立三个informer监听 pod，service，endpoint的事件 ，当apiserver 那边有相关的 watchEvent发生时，就会通知到有监听这个事件的endpointController，这样的话，kubelet挂掉后，不上报node状态，那上面的pod的状态变化，应该是关键。
+
+百度了下看到下面的回答：
+Kubelet进程异常，Pod状态变化
+一个节点上运行着pod前提下，这个时候把kubelet进程停掉。里面的pod会被干掉吗？会在其他节点recreate吗？
+
+结论：
+（1）Node状态变为NotReady
+（2）Pod 5分钟之内状态无变化，5分钟之后的状态变化：Daemonset的Pod状态变为Nodelost，Deployment、Statefulset和Static Pod的状态先变为NodeLost，然后马上变为Unknown。Deployment的pod会recreate，但是Deployment如果是node selector停掉kubelet的node，则recreate的pod会一直处于Pending的状态。Static Pod和Statefulset的Pod会一直处于Unknown状态。
+
+由于coredns是deployment的，那5分钟后之内，coredns的pod状态不变，五分钟后会重新recreate，也就是新建一个pod到别的地方。
+
+那这里有另外一个问题，故障后，pod的状态是running的，那流量被负载到这个pod怎么办？ 
+
+service的还有一个功能是 LoadBalance，LB会对后端的pod进行健康检查。所以流量不会到这上面。
 ```
 

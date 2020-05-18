@@ -24,6 +24,7 @@
    * [xubo的blog](http://blog.xbblfz.site/)        [✨✨✨✨✨✨] --源码
    * [田飞雨](https://blog.tianfeiyu.com/archives/)                [✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨] --源码
    * [极地瑞雪博客](https://docs.lvrui.io)     [✨✨✨✨✨]
+   * [tencentWalton](https://cloud.tencent.com/developer/user/1642192)    [✨✨✨✨✨✨✨✨✨✨✨] --部分文章很经典
 
 ### 二、在线学习
 
@@ -78,10 +79,12 @@
   * [这是一张经典的图](https://www.kubernetes.org.cn/3625.html?spm=a2c4e.10696291.0.0.6d5519a4sZNk6s)
   * [Runtime](http://ljchen.net/2018/11/11/kubelet运行时介绍/) 
   * [CNI/CRI/CSI](https://www.do1618.com/archives/1621/kubelet-pod-创建之-cri-和-cni-源码剖析/)
+  * [kubelet时状态](https://cloud.tencent.com/developer/article/1397084)
 * schedule
   * [设计与实现](https://www.bilibili.com/video/BV1N7411w7M9?from=search&seid=793542453529148615)
   * [调度实践与原理](http://dockone.io/article/2885)
   * [设计精要](https://draveness.me/system-design-scheduler/)
+  * [运行流程](https://cloud.tencent.com/developer/article/1580234)
 * ControllerManager
   * [Informer](https://blog.tianfeiyu.com/2019/05/17/client-go_informer/ ) 
 * kube-proxy
