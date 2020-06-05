@@ -18,3 +18,66 @@ https://docs.openstack.org/zh_CN/user-guide/cli-nova-launch-instance-using-ISO-i
 
 
 
+### 上传镜像
+
+```
+glance image-create --name "centos7.6" --file CentOS-7.6-x86_64-DVD-1810.iso --disk-format iso --container-format bare --visibility public --progress
+```
+
+
+
+
+
+```
+openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_service_management1_rootdisk video_service_management1_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_cam_access1_rootdisk video_cam_access1_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_cam_access2_rootdisk video_cam_access2_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_cam_access3_rootdisk video_cam_access3_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_analysis_management_platform1_rootdisk video_analysis_management_platform1_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 200 --description video_storage_management_platform1_rootdisk video_storage_management_platform1_rootdisk
+    openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_ability_open_database1_rootdisk video_ability_open_database1_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_unified_ops_platform1_rootdisk video_unified_ops_platform1_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 1000 --description video_applications1_rootdisk video_applications1_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 1000 --description video_applications2_rootdisk video_applications2_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 300 --description video_middle_platform1_rootdisk video_middle_platform1_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_access_datastore1_rootdisk video_access_datastore1_rootdisk
+ openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_access_datastore2_rootdisk video_access_datastore2_rootdisk
+ openstack volume create --type Huawei -
+```
+
+```
+TYPE=Ethernet
+PROXY_METHOD=none
+BROWSER_ONLY=no
+BOOTPROTO=static
+DEFROUTE=yes
+IPV4_FAILURE_FATAL=no
+IPV6INIT=yes
+IPV6_AUTOCONF=yes
+IPV6_DEFROUTE=yes
+IPV6_FAILURE_FATAL=no
+IPV6_ADDR_GEN_MODE=stable-privacy
+NAME=eth0
+DEVICE=eth0
+ONBOOT=yes
+IPADDR=172.16.30.162
+PREFIX=24
+GATEWAY=172.16.30.254
+```
+
+
+
+
+
+```
+fdisk /dev/vda
+
+partprobe
+pvcreate /dev/vda3
+vgextend centos /dev/vda3
+lvextend /dev/mapper/centos-root /dev/vda3
+xfs_growfs /dev/mapper/centos-root
+df -h
+
+```
+
