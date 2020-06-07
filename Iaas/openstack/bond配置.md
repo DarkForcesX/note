@@ -76,3 +76,46 @@ SLAVE=yes
      
 ```
 
+
+
+***
+
+* vlan子接口，access模式不用配
+
+```shell
+[root@localhost network-scripts]# cat ifcfg-bond0
+TYPE=Ethernet
+BOOTPROTO=none
+NAME=bond0
+DEVICE=bond0
+ONBOOT=yes
+BONDING_OPTS="miimon=100 mode=1"
+IPADDR=17.60.4.55
+PREFIX=26
+GATEWAY=17.60.4.1
+BONDING_MASTER=yes
+[root@localhost network-scripts]#
+[root@localhost network-scripts]# cat ifcfg-ens1f0
+TYPE=EthernetIP
+BOOTPROTO=none
+NAME=ens1f0
+DEVICE=ens1f0
+ONBOOT=yes
+MASTER=bond0
+SLAVE=yes
+[root@localhost network-scripts]#
+[root@localhost network-scripts]# cat ifcfg-ens1f1
+TYPE=Ethernet
+BOOTPROTO=none
+NAME=ens1f1
+DEVICE=ens1f1
+ONBOOT=yes
+MASTER=bond0
+SLAVE=yes
+[root@localhost network-scripts]#
+```
+
+
+
+
+
