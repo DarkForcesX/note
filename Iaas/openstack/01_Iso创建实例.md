@@ -28,7 +28,7 @@ glance image-create --name "centos7.6" --file CentOS-7.6-x86_64-DVD-1810.iso --d
 
 
 
-```
+```shell
 openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_service_management1_rootdisk video_service_management1_rootdisk
  openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_cam_access1_rootdisk video_cam_access1_rootdisk
  openstack volume create --type Huawei --image zzz --bootable --size 500 --description video_cam_access2_rootdisk video_cam_access2_rootdisk
@@ -45,7 +45,7 @@ openstack volume create --type Huawei --image zzz --bootable --size 500 --descri
  openstack volume create --type Huawei -
 ```
 
-```
+```shell
 TYPE=Ethernet
 PROXY_METHOD=none
 BROWSER_ONLY=no
@@ -69,7 +69,7 @@ GATEWAY=172.16.30.254
 
 
 
-```
+```shell
 fdisk /dev/vda
 
 partprobe
